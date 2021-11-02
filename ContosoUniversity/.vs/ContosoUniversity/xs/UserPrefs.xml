@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{EFCA442F-CB72-4035-80D5-0B7DD9013EE6}|Default">
   <MonoDevelop.Ide.ItemProperties.ContosoUniversity PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Students/Delete.cshtml">
     <Files>
-      <File FileName="Models/Student.cs" Line="14" Column="1" />
-      <File FileName="Pages/Students/Create.cshtml.cs" Line="14" Column="6" />
-      <File FileName="Models/Enrollment.cs" Line="21" Column="2" />
-      <File FileName="Models/Course.cs" Line="1" Column="1" />
-      <File FileName="Pages/Shared/_Layout.cshtml" Line="47" Column="50" />
-      <File FileName="Pages/Index.cshtml" Line="10" Column="31" />
+      <File FileName="Pages/Students/Details.cshtml.cs" Line="35" Column="55" />
+      <File FileName="Pages/Students/Create.cshtml.cs" Line="41" Column="21" />
+      <File FileName="Pages/Students/Edit.cshtml.cs" Line="27" Column="10" />
+      <File FileName="Pages/Students/Delete.cshtml.cs" Line="56" Column="14" />
+      <File FileName="Pages/Students/Delete.cshtml" Line="7" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +17,12 @@
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" selected="True" />
+                <Node name="Students" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Delete.cshtml" expanded="True" selected="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
